@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Web Development Portfolio">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Tamara Buck">
+    <title>
+    Tamara Buck - SLCC Portfolio
+    </title>
+  </head>
+  <body>
+  <header>
+  <h1>Tamara Buck</h1>
+  </header>
+    <nav>
+      <a href="index.html" target="_blank" title="Home">Home</a>
+      <a href="portfolio.html" target="_blank" title="Portfolio">Portfolio</a>
+      <a href="about.html" target="_blank" title="About">About</a>  
+    </nav>
+    <main>
+
+    <section>
+    <h2>Contact Me</h2>
+    <!--SLCC Form Success PHP link not included in this form-->
+    <form target="_blank">
+    <!--First and Last Name fields-->
+    <label for="fname">First Name:</label>
+    <input type="text" name="fname" id="fname" />
+    <label for="lname">Last Name:</label>
+    <input type="text" name="lname" id="lname" />
+    <br><br>
+    <!--Email field-->
+    <label for="email">Email:</label>
+    <input type="email" name="email" id="email" value="example@email.com" /><br><br>
+    <!--Comments box-->
+    <label for="comments">Comments:</label><br>
+    <textarea name="comments" id="comments" cols="50" rows="10">Type your comments here.</textarea><br>
+    <!--Contact back permissions-->
+    <p>Can I contact you back?</p>  
+    <input type="radio" name="contact-back" id="yes" value="Yes"/>
+    <label for="yes">Yes</label>
+    <input type="radio" name="contact-back" id="no" value="No"/>
+    <label for="no">No</label><br /><br />
+    <!--Contact back methods-->
+    <p>Best Contact Methods: </p>
+      <input type="checkbox" id="contactphone" name="contact-phone" value="Phone" />
+      <label for="contactphone">Phone</label><br><br/>
+      <input type="checkbox" id="contacttext" name="contact-text" value="Text" />
+      <label for="contacttext">Text</label><br><br/>
+      <input type="checkbox" id="contactemail" name="contact-email" value="Email" />
+      <label for="contactemail">Email</label><br/><br/>
+      <br>
+      <button>Submit</button>
+      <button type="reset" value="Reset" id="resetbutton">Reset</button>
+     <br>
+    </form>
+    </section>
+
+    <section>
+    <h2>Resume</h2>
+    <p>Download my brief resume to learn more:<p>
+	  <a href="Resume.docx" download="Tammy's resume">
+  	<img src="images/page.png" alt="image of blank page" width="100" height="150"></a>
+    </section>
+ 
+   </main>
+   <footer>
+    Copyright @ 2021 - Tamara Buck<br>
+    Github: tlbartprojects
+    
+   </footer>
+  </body>
+</html>
